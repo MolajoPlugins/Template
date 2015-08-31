@@ -28,10 +28,10 @@ abstract class Data extends DisplayEvent
      */
     protected function getTemplateRenderData()
     {
-//        echo '<br><br>';
-//        echo 'Token Name: ' . $this->controller['parameters']->token->name . '<br>';
-//        echo 'Model Type: ' . $this->controller['parameters']->token->model_type . '<br>';
-//        echo 'Model Name: ' . $this->controller['parameters']->token->model_name . '<br>';
+        echo '<br><br>';
+        echo 'Token Name: ' . $this->controller['parameters']->token->name . '<br>';
+        echo 'Model Type: ' . $this->controller['parameters']->token->model_type . '<br>';
+        echo 'Model Name: ' . $this->controller['parameters']->token->model_name . '<br>';
 //
         $this->token = $this->controller['parameters']->token;
 
